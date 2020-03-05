@@ -80,7 +80,21 @@ console.log(ps)
 //sort
 const sortt=["Panda","Koala Bear","Penguin"];
 const sor=sortt.sort();
-console.log(sor);
+console.log(sor)
 //sorts the elements according to alphabetical order
+//["Penguin", "Koala Bear", "Panda"]
 
 //reverse
+const rev=["Panda","Koala Bear","Penguin"];
+const rever=rev.reverse();
+console.log(rever)
+//revrse the elements in an array -["Penguin", "Koala Bear", "Panda"]
+
+//concat
+const one=["Panda","Koala Bear","Penguin"];
+const two=["taylor","Zayn","Kendall","Dulquer"];
+const conc=one.concat(two);
+console.log(conc)
+//joins two array elements-["Panda", "Koala Bear", "Penguin", "taylor", "Zayn", "Kendall", "Dulquer"]
+
+//pop
