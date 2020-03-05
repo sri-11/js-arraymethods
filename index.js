@@ -75,8 +75,6 @@ const ps=sp.splice(0,2);
 console.log(ps)
 //splicing the values based on the index value given-taylor", "Zayn"
 
-//sort, reverse, concat, pop, push, shift, unshift
-
 //sort
 const sortt=["Panda","Koala Bear","Penguin"];
 const sor=sortt.sort();
@@ -98,3 +96,24 @@ console.log(conc)
 //joins two array elements-["Panda", "Koala Bear", "Penguin", "taylor", "Zayn", "Kendall", "Dulquer"]
 
 //pop
+const p=["Panda","Koala Bear","Penguin"];
+console.log(p.pop())
+//removes the last element of an array and prints it-Penguin
+
+//push
+const pus=["Panda","Koala Bear","Penguin"];
+const puszz=pus.push("kangaroo");
+console.log(puszz)
+//The push method adds new items to the end of an array, and returns the new length.-4
+
+//shift
+const shif=["Panda","Koala Bear","Penguin"];
+console.log(shif.shift())
+//removes the first element of an array and prints it-Panda
+
+//unshift
+const unshif=["Panda","Koala Bear","Penguin"];
+console.log(unshif.unshift("Beagle"))
+//The unshift method adds new items to the beginning of an array, and returns the new length.-4
+
+//------------------------------------------------//
