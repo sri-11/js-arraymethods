@@ -54,8 +54,11 @@ console.log(fin.find(f))
 //returns 5 which is greater than the condition given
 
 //reduce
-const red=[100,200,300,400,500];
-function redi(red){
-  
-  
+const red=[10,20,30,4,5];
+function redi(total,num){
+  return total*num;
 }
+console.log(red.reduce(redi))
+
+//slice
+const coot=["Panda","Koala Bear","Penguin"];
