@@ -62,3 +62,5 @@ console.log(red.reduce(redi))
 
 //slice
 const coot=["Panda","Koala Bear","Penguin"];
+const resi=coot.slice(1,2);
+console.log(resi);
